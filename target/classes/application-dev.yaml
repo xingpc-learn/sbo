@@ -1,0 +1,18 @@
+server:
+  port: 80
+
+# 没有指定日志路径，默认项目下边
+logging:
+  level:
+    com:
+      xingpc: trace
+
+# 配置热部署
+
+
+spring:
+  devtools:
+    restart:
+      enabled: true
+      additional-paths: src/main/java
+      additional-exclude: WEB-INF/**
