@@ -1,8 +1,0 @@
-server:
-  port: 82
-
-# 没有指定日志路径，默认项目下边
-logging:
-  level:
-    com:
-      xingpc: error
